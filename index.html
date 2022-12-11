@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Registration form</title>
+      <link rel="stylesheet" href="CREATE_FORM.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+   </head>
+   <body>
+      <div class="container">
+         <header>Sign up</header>
+         <div class="progress-bar">
+            <div class="step">
+               <p>
+                  Personal
+               </p>
+               <div class="bullet">
+                  <span>1</span>
+               </div>
+               <div class="check fas fa-check"></div>
+            </div>
+            <div class="step">
+               <p>
+                  Company
+               </p>
+               <div class="bullet">
+                  <span>2</span>
+               </div>
+               <div class="check fas fa-check"></div>
+            </div>
+            <!-- <div class="step">
+               <p>
+                  Birth
+               </p>
+               <div class="bullet">
+                  <span>3</span>
+               </div>
+               <div class="check fas fa-check"></div>
+            </div> -->
+            <div class="step">
+               <p>
+                  Submission
+               </p>
+               <div class="bullet">
+                  <span>3</span>
+               </div>
+               <div class="check fas fa-check"></div>
+            </div>
+         </div>
+         <div class="form-outer">
+            <form action="#">
+               <div class="page slide-page">
+                  <div class="title">
+                     Personal Details:
+                  </div>
+                  <div class="field">
+                     <div class="label">
+                        First Name
+                     </div>
+                     <input type="text" class="firstname" name="firstname" id="firstname" placeholder="Enter your first name">
+                  </div>
+                  <div class="error-msg" id="error-msg"> </div> 
+                  <div class="field">
+                     <div class="label">
+                        Middle Name
+                     </div>
+                     <input type="text" class="middlename" name="middlename" id="middlename" placeholder="Enter your middle name">
+                  </div>
+                  <div class="error-msg1" id="error-msg1"> </div> 
+                  <div class="field">
+                     <div class="label">
+                        Last Name
+                     </div>
+                     <input type="text" class="lastname" name="lastname" id="lastname" placeholder="Enter your last name">
+                  </div>
+                  <div class="error-msg2" id="error-msg2"> </div> 
+                  <div class="field">
+                     <button class="firstNext next">Next</button>
+                  </div>
+               </div>
+               <div class="page">
+                  <div class="title">
+                     Company Details:
+                  </div>
+                  <div class="field">
+                     <div class="label">
+                        Company name
+                     </div>
+                     <input type="text" class="companyname" name="companyname" id="companyname" placeholder="Enter your company name">
+                  </div>
+                  <div class="error-msg3" id="error-msg3"> </div> 
+                  <div class="field">
+                     <div class="label">
+                       Phone number
+                     </div>
+                     <input type="text" class="phonenumber" name="phonenumber" id="phonenumber" placeholder="Enter your phone number">
+                  </div>
+                  <div class="error-msg4" id="error-msg4"> </div> 
+                  <div class="field">
+                     <div class="label">
+                        Nature of work
+                     </div>
+                     <input type="text" class="position" name="position" id="position" placeholder="state your position">
+                  </div>
+                  <div class="error-msg5" id="error-msg5"> </div> 
+                  <div class="field btns">
+                     <button class="prev-1 prev">Previous</button>
+                     <button class="next-1 next">Next</button>
+                  </div>
+               </div>
+          
+               <div class="page">
+                  <div class="title">
+                     Account Details:
+                  </div>
+                  <div class="field">
+                     <div class="label">
+                        Username
+                     </div>
+                     <input type="text" class="username" name="username" id="username" placeholder="enter your username">
+                  </div>
+                  <div class="error-msg6" id="error-msg6"> </div> 
+                  <div class="field">
+                     <div class="label">
+                        Password
+                     </div>
+                     <input type="password" class="password" name="password" id="password" placeholder="enter your password">
+                  </div>
+                  <div class="error-msg7" id="error-msg7"> </div> 
+                  <div class="field">
+                     <div class="label">
+                        Password
+                     </div>
+                     <input type="password" class="cpassword" name="cpassword" id="cpassword" placeholder="confirm your password">
+                  </div>
+                  <div class="error-msg8" id="error-msg8"> </div> 
+                  <div class="field btns">
+                     <button class="prev-3 prev">Previous</button>
+                     <button class="submit">Submit</button>
+                  </div>
+             
+            </div>
+            </form>
+         </div>
+      </div>
+      <script src="CREATE_FORM.js"></script>
+   </body>
+</html>
